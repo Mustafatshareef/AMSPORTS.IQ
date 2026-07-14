@@ -7,12 +7,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Contact AM Sports</title>
+<title>AM Sports | Cart</title>
 
 <link rel="stylesheet" href="../style.css">
 
 </head>
-
 
 
 <body>
@@ -38,6 +37,7 @@ AM Sports
 
 <ul class="nav-links">
 
+
 <li>
 <a href="../index.html">
 Home
@@ -55,6 +55,16 @@ Products
 </ul>
 
 
+
+
+<a href="cart.html" class="cart">
+
+🛒 <span id="cart-count">0</span>
+
+</a>
+
+
+
 </nav>
 
 </header>
@@ -65,84 +75,52 @@ Products
 
 
 
-<section class="contact" style="padding-top:150px;">
+
+<section class="cart-page" style="padding-top:150px;">
+
+
+
+<h1>
+Your Shopping Cart 🛒
+</h1>
+
+
+
+
+<div id="cart-items">
+
+
+</div>
+
+
 
 
 
 <h2>
-Contact Us
+
+Total: $
+
+<span id="total">
+0
+</span>
+
+
 </h2>
 
 
 
 
-<p>
-📱 WhatsApp:
-07731297115
-</p>
 
+<button class="btn" onclick="checkout()">
 
-<p>
-📱 WhatsApp:
-07733098809
-</p>
+Order Via WhatsApp
 
-
-<p>
-📱 WhatsApp:
-07707297599
-</p>
-
-
-<p>
-📱 WhatsApp:
-07838591140
-</p>
-
-
-
-
-
-<p>
-
-📸 Instagram:
-<a href="https://www.instagram.com/am.sportsiq">
-
-@AM.sportsiq
-
-</a>
-
-</p>
-
-
-
-
-
-<p>
-
-🎵 TikTok:
-@am.sports.iq
-
-</p>
-
-
-
-
-
-
-<a class="btn"
-href="https://wa.me/9647731297115">
-
-Chat WhatsApp
-
-</a>
-
-
-
+</button>
 
 
 
 </section>
+
 
 
 
@@ -162,6 +140,9 @@ Chat WhatsApp
 
 
 
+
+
+<script src="../style.css"></script>
 
 <script src="../script.js"></script>
 

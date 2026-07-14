@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Product Details</title>
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+
+<body>
+
+
+
+<header>
+
+<nav class="navbar">
+
+
+<div class="logo">
+
+<img src="../images/logo.png">
+
+<span>
+AM Sports
+</span>
+
+</div>
+
+
+<a href="cart.html" class="cart">
+
+🛒 <span id="cart-count">0</span>
+
+</a>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+
+
+<section class="product-details">
+
+
+<div class="product-image">
+
+
+<img src="../images/product1.jpg">
+
+
+</div>
+
+
+
+
+<div class="product-info">
+
+
+<h1>
+Running Shoes
+</h1>
+
+
+<h2>
+$80
+</h2>
+
+
+<p>
+Professional sports shoes designed for comfort and performance.
+</p>
+
+
+
+<div class="quantity">
+
+
+<button onclick="decreaseQuantity()">
+-
+</button>
+
+
+<span id="quantity">
+1
+</span>
+
+
+<button onclick="increaseQuantity()">
++
+</button>
+
+
+</div>
+
+
+
+<button class="btn"
+onclick="addProductQuantity('Running Shoes',80)">
+
+Add To Cart
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<script src="../script.js"></script>
+
+
+</body>
+
+</html>

@@ -2,66 +2,329 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AM Sports</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AM Sports | Premium Sportswear</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- ================= NAVBAR ================= -->
 
-    <header>
+<!-- NAVBAR -->
 
-        <nav class="navbar">
+<header>
 
-            <div class="logo">
+<nav class="navbar">
 
-                <img src="images/logo.png" alt="AM Sports Logo">
 
-                <span>AM Sports</span>
+<div class="logo">
 
-            </div>
+<img src="images/logo.png" alt="AM Sports Logo">
 
-            <div class="nav-links">
+<span>AM Sports</span>
 
-                <a href="index.html">Home</a>
-                <a href="pages/products.html">Products</a>
-                <a href="pages/about.html">About</a>
-                <a href="pages/contact.html">Contact</a>
+</div>
 
-            </div>
 
-        </nav>
 
-    </header>
+<ul class="nav-links">
 
-    <!-- ================= HERO ================= -->
+<li>
+<a href="index.html">Home</a>
+</li>
 
-    <section class="hero">
 
-        <div class="overlay"></div>
+<li>
+<a href="pages/products.html">Products</a>
+</li>
 
-        <div class="hero-content">
 
-            <h1>TRAIN HARD. LOOK STRONG.</h1>
+<li>
+<a href="pages/about.html">About</a>
+</li>
 
-            <p>
-                Discover premium sportswear, shoes and accessories
-                for athletes who never stop improving.
-            </p>
 
-            <a href="pages/products.html" class="btn">
-                Shop Now
-            </a>
+<li>
+<a href="pages/contact.html">Contact</a>
+</li>
 
-        </div>
 
-    </section>
+</ul>
 
-    <script src="script.js"></script>
+
+
+<a href="pages/cart.html" class="cart">
+
+🛒 <span id="cart-count">0</span>
+
+</a>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+
+<div class="overlay"></div>
+
+
+<div class="hero-content">
+
+
+<h1>
+TRAIN HARD.
+<br>
+LOOK STRONG.
+</h1>
+
+
+<p>
+Premium sportswear, shoes and accessories
+for athletes who never stop improving.
+</p>
+
+
+<a href="pages/products.html" class="btn">
+
+SHOP NOW
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- PRODUCTS -->
+
+
+<section class="products">
+
+
+<h2>
+Featured Products
+</h2>
+
+
+
+<div class="product-container">
+
+
+
+<div class="product-card">
+
+
+<img src="images/product1.jpg">
+
+
+<h3>
+Running Shoes
+</h3>
+
+
+<p class="price">
+$80
+</p>
+
+
+<button onclick="addProduct('Running Shoes',80)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<img src="images/product2.jpg">
+
+
+<h3>
+Training Shirt
+</h3>
+
+
+<p class="price">
+$35
+</p>
+
+
+<button onclick="addProduct('Training Shirt',35)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="product-card">
+
+
+<img src="images/product3.jpg">
+
+
+<h3>
+Gym Bag
+</h3>
+
+
+<p class="price">
+$45
+</p>
+
+
+<button onclick="addProduct('Gym Bag',45)">
+Add To Cart
+</button>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+<a href="pages/products.html" class="btn more">
+
+VIEW ALL PRODUCTS
+
+</a>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ABOUT -->
+
+
+<section class="about">
+
+
+<h2>
+About AM Sports
+</h2>
+
+
+<p>
+
+AM Sports provides premium sportswear,
+shoes and accessories for athletes
+and fitness lovers in Iraq.
+
+</p>
+
+
+
+<a href="pages/about.html" class="btn">
+
+READ MORE
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section class="contact">
+
+
+<h2>
+Contact Us
+</h2>
+
+
+<p>
+📱 WhatsApp: 07731297115
+</p>
+
+
+<p>
+📸 Instagram: @AM.sportsiq
+</p>
+
+
+
+<a href="pages/contact.html" class="btn">
+
+CONTACT
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+
+<p>
+© 2026 AM Sports. All Rights Reserved.
+</p>
+
+
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+
 
 </body>
 
